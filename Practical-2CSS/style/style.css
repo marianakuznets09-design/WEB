@@ -1,0 +1,12 @@
+body{
+    background: aqua;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: medium;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+blockquote{
+    color: purple;
+}
