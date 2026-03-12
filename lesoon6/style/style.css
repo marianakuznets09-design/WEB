@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*маркери*/
+    text-decoration: none;
+    /*підкреслення*/
+    font-family: 'Arial', sans-serif;
+}
+.logo, nav, header-button, li{
+    display: inline-block;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 25px 0;
+    background: #fff;
+}
+
+.logo-img{
+    padding: 25px;
+    background: linear-gradient(#bf49ec, #e740b2);
+    border-radius: 50%;
+}
+
+.logo-text{
+    color: #535353;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+nav{
+    margin: 0 20%;
+
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav ul li a{
+    font-size: 14px;
+    color: #535353;
+}
+.header-button button{
+    border: none;
+    background: inherit;
+    /*приймає значення батьківського елемента*/
+    padding: 10px;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    padding: 150px 0;
+    text-align: center;
+    background: linear-gradient(135deg, #9b17f8, #ff8620);
+    color: #fff;
+}
+
+.main-top{
+    font-size: 60px;
+    line-height: 0.8;
+    margin-bottom: 40px;
+}
+.main-top{
+    font-size: 16px;
+    font-weight:500;
+    margin-bottom: 40px;
+}
+
+.main-bottom button{
+    border: none;
+    background: #fff;
+    color: #9537b9;
+    padding: 10px 15px;
+    cursor: pointer;
+}
