@@ -1,0 +1,36 @@
+*{
+
+}
+section{
+    margin: 16px;
+}
+main{
+    width:800px;
+    height: 1641px;
+    background: white;
+}
+figure{
+    margin: 16px 50px
+}
+figcaption{
+    text-align: center;
+}
+nav{
+    background: #F4D3D3;
+}
+ul{
+    display: inline;
+}
+.bio{
+    background: #ffffff;
+    text-align: center;
+}
+img{
+    padding: 35px 30px;
+}
+tr: nth-child(1){
+background: #FCF5E9;
+}
+tr:nth-child(nave){
+    background: #FCE9E9;
+}
