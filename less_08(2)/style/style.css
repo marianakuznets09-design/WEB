@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Segoe UI",Tahoma,Geneva,Verdana,sans-serif;
+}
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: #464646;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.logo-img{
+    background: linear-gradient(rgb(173,84, 220), rgb(224,67, 170));
+    padding: 15px;
+    border-radius: 50%;
+
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav ul{
+    display: flex;
+    column-gap: 20px;
+}
+.nav ul li a:hover{
+    color: rgb(173,84, 220);
+}
+.nav ul li a{
+    color: #464646;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header-button{
+    display: flex;
+    column-gap: 16px;
+
+}
+.header-button button{
+    border: none;
+    background: transparent;
+    font-size: 14px;
+}
+.header-button button:hover{
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.header-bottom{
+    padding: 130px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #9b17f8, #f8478f, #ff8623);
+    color: #fff;
+}
+.header-bottom-text{
+    margin: 0 240px;
+    width: 768px;
+}
+.header-bottom-text h1{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    line-height: 60px;
+}
+.header-bottom-text p{
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+.header-bottom button{
+    display: flex;
+    column-gap: 10px;
+}
+.header-bottom-button button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(173,84, 220);
+    border-radius: 10px;
+}
+#btn-hover{
+    color: transparent;
+}
+#btn-hover:hover{
+    color: #000000;
+    outline: 1px solid #ffffff;
+    background: transparent;
+}
+.preference{
+    padding: 64px 0;
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.preference-card{
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.preference-card span{
+    background: #f4e8ff;
+
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    height: 64px;
+    width: 64px;
+    align-items: center;
+}
+.preference-card svg{
+    color: #881fd5;
+}
+
+.preference-card h3{
+    margin-top: 16px;
+}
+
+
