@@ -1,0 +1,147 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /*background: linear-gradient(#eff6ff,#ffffff) ;*/
+}
+.wrapper{
+    max-width: 800px;
+    background: #ffffff;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    box-shadow: 1px 1px 1px 1px #f3f3f5;
+    border-radius: 10px;
+}
+.wrapper h1{
+    color:#4150e2;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+}
+article{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #a8aaae;
+}
+.wrapper p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a8aaae;
+}
+
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+}
+.block-blue{
+    display: flex;
+    justify-content: center;
+    background: #eff5ff;
+    border-radius: 10px;
+    height: auto;
+}
+.block-blue h2{
+    color: #1e3e8a;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 24px;
+}
+.block-blue form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+label input{
+    border: 1px solid #d3d7db;
+    border-left-color: #4381e7;
+    border-radius: 5px;
+}
+label input br{
+    font-size: 16px;
+    color: #3e3f4a;
+}
+/*label input br text{*/
+/*    margin: 8px 0 8px 0;*/
+/*}*/
+
+
+
+.block-purpule{
+    display: flex;
+    justify-content: center;
+    background: #f7f4ff;
+    border-radius: 10px;
+    height: auto;
+}
+.block-purpule h2{
+    color: #3f2e59;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 24px;
+}
+.block-purpule form{
+    display: inline-block;
+}
+.block-purpule label input{
+    border: 1px solid #d3d7db;
+    border-left-color: #4381e7;
+    border-radius: 5px;
+}
+.block-purpule label input br{
+    font-size: 16px;
+    color: #3e3f4a;
+}
+
+
+.block-pink{
+    display: flex;
+    justify-content: center;
+    background: #fcf2fa;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+
+
+.block-grey{
+    display: flex;
+    justify-content: center;
+    background: #f9fafc;
+    border-radius: 10px;
+    height: auto;
+}
+button{
+    background: #4845f8;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    margin: 8px auto;
+    height: auto;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #eff6ff;
+    border-radius: 10px;
+    height: auto;
+    color: #333468;
+}
+.footer h3{
+    font-size: 18px;
+}
